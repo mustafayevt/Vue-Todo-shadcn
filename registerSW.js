@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Vue-Todo-shadcn/sw.js', { scope: '/Vue-Todo-shadcn/' })})}
