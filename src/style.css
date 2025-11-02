@@ -119,6 +119,21 @@
   }
   body {
     @apply bg-background text-foreground;
+    margin: 0;
+    padding: 0;
   }
+}
+
+/* Prevent iOS zoom on input focus */
+input,
+select,
+textarea {
+  font-size: 16px !important;
+}
+
+/* iOS touch feedback */
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
 }
 
