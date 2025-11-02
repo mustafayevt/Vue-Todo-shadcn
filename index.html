@@ -12,6 +12,16 @@
     <title>Vue Todo</title>
   </head>
   <body>
+    <script>
+      // Restore path from 404.html redirect for GitHub Pages SPA
+      (function() {
+        var redirect = sessionStorage.getItem('redirect');
+        if (redirect) {
+          sessionStorage.removeItem('redirect');
+          history.replaceState(null, '', redirect);
+        }
+      })();
+    </script>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
