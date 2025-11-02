@@ -19,8 +19,8 @@ export default defineConfig({
         theme_color: '#2563eb',
         background_color: '#ffffff',
         display: 'standalone',
-        scope: '/',
-        start_url: '/',
+        scope: '/Vue-Todo-shadcn/',
+        start_url: '/Vue-Todo-shadcn/',
         icons: [
           {
             src: 'icon-192.png',
@@ -62,5 +62,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     }
   },
-  base: '/'
+  base: '/Vue-Todo-shadcn/'
 })
