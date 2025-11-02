@@ -2,6 +2,8 @@
 
 A minimal, feature-rich todo app built with modern web stack.
 
+🔗 **[Live Demo](https://mustafayevt.github.io/Vue-Todo-shadcn/)**
+
 ## Tech Stack
 
 **Core:**
@@ -91,7 +93,15 @@ Preview build:
 npm run preview
 ```
 
-## Architecture Notes
+Deploy to GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+## License
+
+MIT
 
 **State Management:**  
 Uses `useTodos` composable with VueUse's `useStorage` for reactive localStorage persistence. All CRUD operations are centralized here.
